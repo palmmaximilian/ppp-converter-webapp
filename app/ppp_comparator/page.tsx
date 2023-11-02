@@ -148,8 +148,8 @@ const PPPComparisonForm = () => {
       purchaseCountry !== null &&
       userCountry !== null
     ) {
-      let userCountryObject: any[] = [];
-      let purchaseCountryObject: any[] = [];
+      let userCountryObject: any = {};
+      let purchaseCountryObject: any = {};
       // go through the full ppp data and find the country objects
       fullPPPData.forEach((country: any) => {
         if (country["Country Name"] === userCountry) {
@@ -219,22 +219,6 @@ const PPPComparisonForm = () => {
       setPurchaseCountryPPPHistory(temp_purchase_country_ppp_history);
       setUserCountryPPPHistory(temp_user_country_ppp_history);
 
-      console.log(
-        "userCountryPPP: " +
-          userCountryPPP +
-          " userCountryYear: " +
-          userCountryYear +
-          " userCurrencyCode: " +
-          userCurrencyCode
-      );
-      console.log(
-        "purchaseCountryPPP: " +
-          purchaseCountryPPP +
-          " purchaseCountryYear: " +
-          purchaseCountryYear +
-          " purchaseCurrencyCode: " +
-          purchaseCurrencyCode
-      );
 
       // calculate the output value
       let output =

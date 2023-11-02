@@ -76,6 +76,14 @@ export default function RootLayout({
                       className={classes.control}
                       component="a"
                       variant="default"
+                      href="./money-to-time"
+                    >
+                      Money to time
+                    </Button>
+                    <Button
+                      className={classes.control}
+                      component="a"
+                      variant="default"
                       href="./about"
                     >
                       About
@@ -101,6 +109,14 @@ export default function RootLayout({
                 href="./ppp_comparator"
               >
                 PPP Comparison
+              </Button>
+              <Button
+                className={classes.control}
+                component="a"
+                variant="subtle"
+                href="./money-to-time"
+              >
+                Money to time
               </Button>
               <Button
                 className={classes.control}

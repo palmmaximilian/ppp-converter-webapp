@@ -2,13 +2,6 @@
 
 import React, { useEffect, useState } from "react";
 import {
-  XYPlot,
-  XAxis,
-  YAxis,
-  HorizontalGridLines,
-  LineSeries,
-} from "react-vis";
-import {
   Input,
   NumberInput,
   Text,
@@ -36,7 +29,6 @@ import {
 
 import pppData from "../data/ppp_data.json";
 import countryToCurrency from "../data/country_to_currencies.json";
-// import currencyData from "../data/currencies.json";
 
 export default function PPP_comparator() {
   return PPPComparisonForm();

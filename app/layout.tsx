@@ -70,7 +70,7 @@ export default function RootLayout({
                       variant="default"
                       href="./ppp_comparator"
                     >
-                      PPP
+                      PPP Comparison
                     </Button>
                     <Button
                       className={classes.control}
@@ -100,7 +100,7 @@ export default function RootLayout({
                 variant="subtle"
                 href="./ppp_comparator"
               >
-                PPP
+                PPP Comparison
               </Button>
               <Button
                 className={classes.control}
